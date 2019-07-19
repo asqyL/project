@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+
+}
+
+.header {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    max-width: 960px;
+    height: 100px;
+    background: url(../img/img1.jpg) no-repeat center;
+    background-size: auto;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: red;
+}
+
+.search_team {
+    display:flex;
+
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    /* background: gray; */
+    width: 100%;
+    max-width: 960px;
+    /* justify-content: space-between; */
+
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.container {
+
+    width: 100%;
+    max-width: 960px;
+    /* background: yellow; */
+    height: 1000px;
+    margin-top: 30px;
+
+
+}
+
+.room {
+    display: flex;
+    border:2px solid black;
+    height: 100px;
+    margin-bottom: 20px;
+    background: gray;
+    justify-content: space-between ;
+    /* flex-wrap: wrap; */
+    /* flex-flow: column wrap; */
+
+}
+
+.m_st {
+    color: white;
+    background: gray;
+    margin-right: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.m_lft {
+    height: 29px;
+    margin-right: 20px;
+    border: 1px solid black;
+
+}
+
+body {
+    background: url(../img/bg.jpeg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.create_team {
+    display: flex;
+    /* border: 2px solid black; */
+    /* height: 70px; */
+    width: 100%;
+    max-width: 960px;
+    /* background: green; */
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+
+
+.create_team a {
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+    position:relative;
+}
+
+.create_team a:after {
+    background-color: #ffeb3b;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+
+/* .flex1{
+    flex-grow: 3;
+}
+
+.flex2 {
+    flex-grow: 5;
+
+}
+
+.flex3 {
+    flex-grow: 1;
+} */
+/*
+.flex1,
+.flex2,
+.flex3 {
+    flex-flow: column wrap;
+} */
